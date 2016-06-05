@@ -21,6 +21,9 @@
 		E05358D81D04B2B7006A12EE /* background2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E05358D71D04B2B7006A12EE /* background2.jpg */; };
 		E05358DA1D04B505006A12EE /* Check-In_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E05358D91D04B505006A12EE /* Check-In_Button.png */; };
 		E05358DC1D04B64C006A12EE /* Cancel_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E05358DB1D04B64C006A12EE /* Cancel_Button.png */; };
+		E05358DE1D04CD4D006A12EE /* Command-Center.png in Resources */ = {isa = PBXBuildFile; fileRef = E05358DD1D04CD4D006A12EE /* Command-Center.png */; };
+		E05358E01D04D066006A12EE /* up-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E05358DF1D04D066006A12EE /* up-arrow.png */; };
+		E05358E21D04D3F5006A12EE /* up-arrow 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E05358E11D04D3F5006A12EE /* up-arrow 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		E05358D71D04B2B7006A12EE /* background2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background2.jpg; path = ../../../../../../Downloads/background2.jpg; sourceTree = "<group>"; };
 		E05358D91D04B505006A12EE /* Check-In_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Check-In_Button.png"; path = "../../../../../../Downloads/Check-In_Button.png"; sourceTree = "<group>"; };
 		E05358DB1D04B64C006A12EE /* Cancel_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cancel_Button.png; path = ../../../../../../Downloads/Cancel_Button.png; sourceTree = "<group>"; };
+		E05358DD1D04CD4D006A12EE /* Command-Center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Command-Center.png"; path = "../../../../../../Downloads/Command-Center.png"; sourceTree = "<group>"; };
+		E05358DF1D04D066006A12EE /* up-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "up-arrow.png"; path = "../../../../../../Downloads/up-arrow.png"; sourceTree = "<group>"; };
+		E05358E11D04D3F5006A12EE /* up-arrow 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "up-arrow 2.png"; path = "../../../../../../Downloads/up-arrow 2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,9 @@
 		E053589D1D04A696006A12EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E05358DD1D04CD4D006A12EE /* Command-Center.png */,
+				E05358E11D04D3F5006A12EE /* up-arrow 2.png */,
+				E05358DF1D04D066006A12EE /* up-arrow.png */,
 				E05358D51D04ADA9006A12EE /* background1.jpg */,
 				E05358DB1D04B64C006A12EE /* Cancel_Button.png */,
 				E05358D71D04B2B7006A12EE /* background2.jpg */,
@@ -280,8 +289,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E05358E01D04D066006A12EE /* up-arrow.png in Resources */,
 				E05358DC1D04B64C006A12EE /* Cancel_Button.png in Resources */,
 				E05358AD1D04A696006A12EE /* LaunchScreen.storyboard in Resources */,
+				E05358DE1D04CD4D006A12EE /* Command-Center.png in Resources */,
+				E05358E21D04D3F5006A12EE /* up-arrow 2.png in Resources */,
 				E05358AA1D04A696006A12EE /* Assets.xcassets in Resources */,
 				E05358D81D04B2B7006A12EE /* background2.jpg in Resources */,
 				E05358DA1D04B505006A12EE /* Check-In_Button.png in Resources */,

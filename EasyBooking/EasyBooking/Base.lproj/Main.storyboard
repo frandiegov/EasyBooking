@@ -8,7 +8,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController modalTransitionStyle="flipHorizontal" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="View Controller" modalTransitionStyle="flipHorizontal" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -17,6 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GIFTED HEADQUARDERS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JxP-CN-2Ga">
+                                <rect key="frame" x="20" y="20" width="341" height="67"/>
+                                <fontDescription key="fontDescription" name="ProximaNova-SemiboldIt" family="Proxima Nova" pointSize="27"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5C-3p-MGP">
                                 <rect key="frame" x="65" y="501" width="339" height="297"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
@@ -27,12 +33,10 @@
                                 <rect key="frame" x="633" y="503" width="333" height="291.5"/>
                                 <state key="normal" title="Cancle" image="Cancel_Button.png"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GIFTED HEADQUARDERS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JxP-CN-2Ga">
-                                <rect key="frame" x="20" y="20" width="341" height="67"/>
-                                <fontDescription key="fontDescription" name="ProximaNova-SemiboldIt" family="Proxima Nova" pointSize="27"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIF-tD-tIl">
+                                <rect key="frame" x="448" y="679" width="97" height="62"/>
+                                <state key="normal" title="Arrow-Up" image="up-arrow 2.png"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -43,11 +47,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-25" y="258"/>
+            <point key="canvasLocation" x="107" y="200"/>
         </scene>
     </scenes>
     <resources>
         <image name="Cancel_Button.png" width="1024" height="768"/>
         <image name="Check-In_Button.png" width="1024" height="768"/>
+        <image name="up-arrow 2.png" width="100" height="100"/>
     </resources>
 </document>
