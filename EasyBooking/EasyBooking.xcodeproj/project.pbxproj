@@ -470,6 +470,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = EasyBooking/EasyBooking.entitlements;
 				INFOPLIST_FILE = EasyBooking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gifted.EasyBooking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,6 +484,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = EasyBooking/EasyBooking.entitlements;
 				INFOPLIST_FILE = EasyBooking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				"IPHONEOS_DEPLOYMENT_TARGET[arch=*]" = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gifted.EasyBooking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -495,6 +498,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = EasyBookingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gifted.EasyBookingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +511,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = EasyBookingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gifted.EasyBookingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +523,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = EasyBookingUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gifted.EasyBookingUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,6 +535,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = EasyBookingUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gifted.EasyBookingUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -555,6 +562,7 @@
 				E05358C91D04A696006A12EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E05358CA1D04A696006A12EE /* Build configuration list for PBXNativeTarget "EasyBookingTests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +571,7 @@
 				E05358CC1D04A696006A12EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E05358CD1D04A696006A12EE /* Build configuration list for PBXNativeTarget "EasyBookingUITests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +580,7 @@
 				E05358CF1D04A696006A12EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
